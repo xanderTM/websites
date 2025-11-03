@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oef9-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .column-box {
+            background-color: #7fffd4;
+            border: 1px solid #5dd4b0;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Grid</h1>
+
+        <!-- Rij 1: 3 gelijke kolommen op desktop -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="column-box">Column</div>
+            </div>
+        </div>
+
+        <!-- Rij 2: 4 gelijke kolommen op desktop -->
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+        </div>
+
+        <!-- Rij 3: 2 gelijke kolommen op desktop -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="column-box">Column</div>
+            </div>
+        </div>
+
+        <!-- Rij 4: 3 ongelijke kolommen (3-6-3 verdeling) -->
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="column-box">Column</div>
+            </div>
+        </div>
+
+        <!-- Rij 5: 2 ongelijke kolommen (5-7 verdeling) -->
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <div class="column-box">Column</div>
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="column-box">Column</div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
